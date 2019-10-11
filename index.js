@@ -1,4 +1,4 @@
-const PORT = process.env.PORT || 80; //Constante PORT auf 8080 festlegen
+const PORT = process.env.PORT || 8080; //Constante PORT auf 8080 festlegen
 const parser = require('body-parser');
 const express = require('express');
 const classifier = require('./classifier');
